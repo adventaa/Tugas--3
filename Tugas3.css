@@ -2,7 +2,43 @@
 	padding: 0;
 	margin-top: 0;
 	font-family: sans-serif;
+	
 }
+
+.kotak{
+    width:100%;
+    height:auto;
+    
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+@media screen and (max-width:1200px) {
+    .box{
+        width:40%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .box{
+        width:90%;
+    }
+    
+}
+
+.box{
+    width:20%;
+    height:300;
+    background:violet;
+    margin:20px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
 
 a{
 	color: inherit;
@@ -53,7 +89,7 @@ header ul li a:hover{
 
 .banner{
 	height: 75vh;
-	background-image: url('awan.jpg');
+	
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -102,6 +138,8 @@ section h2{
 	text-align: left;
     
 }
+
+
 
 
 
