@@ -52,7 +52,7 @@ header ul li a:hover{
 }
 
 .banner{
-	height: 80vh;
+	height: 75vh;
 	background-image: url('awan.jpg');
 	background-size: cover;
 	position: relative;
@@ -83,16 +83,23 @@ section{
 	padding: 50px 0;
 }
 
-section h3{
+section h2{
 	text-align: center;
 	padding: 50px 0;
 	color: black;
 }
 
-.about dd{
+.perkenalan .container img{
+	border-radius: 8px;
+	float:right;
+	margin:5px;
+}
+
+.perkenalan .container dd{
 	color: black;
 	word-spacing: 2px;
 	line-height: 25px;
+	text-align: left;
     
 }
 
